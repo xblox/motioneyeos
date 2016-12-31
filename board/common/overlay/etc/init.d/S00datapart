@@ -32,6 +32,10 @@ case "$1" in
         mkdir /data/log
         mkdir -m 775 /data/output
         mkdir -m 775 /data/media
+        mkdir -m 775 /data/log/nginx
+        mkdir -m 775 /data/run
+        mkdir -m 775 /data/tmp
+        mkdir -m 775 /data/log
         cp /etc/version /data/etc/version
         ln -s /usr/share/zoneinfo/UTC /data/etc/localtime
         touch /data/etc/adjtime
