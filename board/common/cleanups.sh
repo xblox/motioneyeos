@@ -189,5 +189,5 @@ rm -f $TARGET/etc/init.d/S80dhcp-server
 rm -f $TARGET/etc/init.d/S91smb
 
 # other unwanted dirs
-rm -rf $TARGET/data/*
+#rm -rf $TARGET/data/*
 
