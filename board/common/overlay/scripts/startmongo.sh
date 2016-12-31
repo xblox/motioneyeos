@@ -1,0 +1,1 @@
+mongod --storageEngine=mmapv1
