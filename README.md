@@ -1,3 +1,27 @@
+### A MotionEyeOS fork
+
+#### Modifications
+
+##### Added "build root" packages  
+
+- Python Paho MQTT client (to wire MotionEye to IoT)
+- NGINX (for "Net-Commander")
+- MONGODB (for "Net-Commander", optional)
+- PHP-CGI/CLI (for "Net-Commander") and various extensions
+- MC (Midnight Commander)
+- SLANG (for MC)
+- NODE-JS and NPM (for "Net-Commander")
+- libAudio (for recording sound in "Net-Commander")
+
+##### Misc
+
+- pre-defined /data partition instead of on the fly creation
+- pre-installed "Net-Commander" with bindings for "Motion"
+
+#### Status: Work in progress. First release should be ready end of January
+
+
+
 **motionEyeOS** is a Linux distribution that turns your single board computer into a video surveillance system. Check out the [wiki](https://github.com/ccrisan/motioneyeos/wiki) for more details.
 
 Follow us on facebook: [https://www.facebook.com/motioneyeos](https://www.facebook.com/motioneyeos).
