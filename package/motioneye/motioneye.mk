@@ -55,7 +55,7 @@ define MOTIONEYE_INSTALL_TARGET_CMDS
     source package/motioneye/dropbox.keys; \
     sed -i "s/dropbox_client_id_placeholder/$$CLIENT_ID/" $(DST_DIR)/uploadservices.py; \
     sed -i "s/dropbox_client_secret_placeholder/$$CLIENT_SECRET/" $(DST_DIR)/uploadservices.py
-    
+
     # (re)compile all python modules
     $($(PKG)_PYTHON_INTERPRETER) -m compileall -d /usr/lib/python2.7/site-packages/motioneye -f $(DST_DIR)
 
